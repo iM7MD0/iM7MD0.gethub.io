@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+div {
+  border: 1px solid black;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: black;
+  text-indent: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+text {
+    font-family: amiri;
+    fill: black;
+    stroke-width: 0;
+  }
+svg {
+  height: 500px;
+  width: 600px;
+  position: center;
+}
+.North,.Middle,.West,.East,.South {
+    fill-opacity: 100;
+    stroke: white;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 2000;
+}
+/*.North:hover {
+    fill: orange;
+    animation: North 3s ease-in-out;
+}
+@keyframes North
+{
+    0%
+    {
+      stroke-dashoffset: 2000;
+    }
+    100%
+    {
+      stroke-dashoffset: 0;
+    }
+
+}
+.South:hover {
+    fill: green;
+    animation: South 1s ease;
+}
+@keyframes South
+{
+    0%
+    {
+      stroke-dashoffset: 2000;
+    }
+    100%
+    {
+      stroke-dashoffset: 0;
+    }
+
+}
+.Middle:hover {
+    fill: brown;
+    animation: Middle 2s ease-in-out;
+}
+@keyframes Middle
+{
+    0%
+    {
+      stroke-dashoffset: 2000;
+    }
+    100%
+    {
+      stroke-dashoffset: 0;
+    }
+
+}
+.West:hover {
+    fill: red;
+    animation: West 3s ease;
+}
+@keyframes West
+{
+    0%
+    {
+      stroke-dashoffset: 2000;
+    }
+    100%
+    {
+      stroke-dashoffset: 0;
+    }
+
+}
+.East:hover {
+    fill: blue;
+    animation: East 4s ease;
+}
+@keyframes East
+{
+    0%
+    {
+      stroke-dashoffset: 2000;
+    }
+    100%
+    {
+      stroke-dashoffset: 0;
+    }
+
+}*/
+.scolor{
+    fill = var(--color)
+}
